@@ -328,6 +328,10 @@ input.edit {
     line-height: 30px;
 }
 
+.todo label.completed {
+    text-decoration: line-through;
+}
+
 .todo .destroy-btn{
   position: absolute;
   top: 0;
