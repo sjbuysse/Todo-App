@@ -8,7 +8,6 @@ var app = app || {};
 
         toggle: function() { 
             this.set('completed', !this.get('completed'));
-            this.save();
         }
     });
 })();

@@ -44,6 +44,7 @@ var app = app || {};
 
         toggleComplete: function() {
             this.model.toggle();
+            this.model.save();
         },
 
         // returns true if the todoView should be hidden, according to the TodoFilter
